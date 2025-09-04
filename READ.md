@@ -52,7 +52,7 @@ terraform apply tfplan
 ## How To Test
 #Vist
 echo $(terraform output -raw nginx_url)
-![Nginx Page](images/nginx.png)
+![Nginx Page](images/ngix.png)
 
 # Stress CPU
 $(terraform output -raw ssh_command)
