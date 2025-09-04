@@ -23,8 +23,8 @@ graph TD
     D --> E[VM: Ubuntu + Nginx]
     D --> F[Public IP]
     D --> G[NSG: allow 22 & 80]
-    E --> H[Azure Monitor Alert: CPU threshold] ```
-
+    E --> H[Azure Monitor Alert: CPU threshold] 
+```
 
  ## repo structure
 terraform-azure-vm-nginx/
